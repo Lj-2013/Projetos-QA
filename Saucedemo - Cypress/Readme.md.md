@@ -74,19 +74,7 @@ Antes de começar, garante que você tem instalado em sua máquina:
 
 ---
 
-## 💡 Dicas do Mentor QA (Melhorias Futuras)
-
-Para levar sua automação para o próximo nível e torná-la ainda mais profissional, aqui estão algumas recomendações:
-
-1. **Evitar o uso de `cy.wait()` fixo:**
-   - O uso de tempos fixos (ex: `cy.wait(1000)`) deixa a execução mais lenta e instável (*flaky tests*). O Cypress possui assincronismo embutido e espera elementos aparecerem na tela automaticamente!
-
-2. **Aplicar o Padrão Page Object Model (POM) ou Custom Commands:**
-   - Separar seletores e ações em arquivos próprios para reaproveitar código em novos testes.
-
-3. **Massa de Dados Dinâmica / Fixtures:**
-   - Utilizar arquivos JSON dentro de `cypress/fixtures/` ou bibliotecas como `@faker-js/faker` para gerar dados de formulário dinamicamente.
+👨‍💻 **Desenvolvido por:** Luciano Silva
 
 ---
 
-👨‍💻 **Desenvolvido por:** Luciano Silva
